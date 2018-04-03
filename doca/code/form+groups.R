@@ -26,3 +26,14 @@ dev.copy(png,'doca_groups.png', height =5, width = 7, units = 'in', res=400)
 dev.off()
 
 ################ Primary Protest Form
+
+form <- read.csv(file="/Users/lizmckenna/desktop/form_count.csv", header=TRUE, sep=",")
+form<-na.omit(form)
+
+ggplot(form,aes(x=reorder(form, count), y = count, fill = count))+
+  coord_flip() +
+  scale_fill_gradient(low = "blue", high = "red")+
+  geom_bar(width=0.7, stat = "identity")
+
+dev.copy(png,'doca_form.png', height =5, width = 7, units = 'in', res=400)
+dev.off()
