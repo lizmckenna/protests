@@ -6,7 +6,7 @@
 First, I accessed the ICEWS Coded Event Data from Harvard's dataverse, here:
 https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/28075
 
-I only downloaded 2013 as a test (also theoretically motivated because of the large number of massive, politically-ambiguous protests that took place in June of that year to see how the ICEWS automated coding technique would handle those events.
+I only downloaded 2013 as a test. This was theoretically motivated because of the large number of massive, politically-ambiguous protests that took place in June of that year. I wanted to see how the ICEWS automated coding technique would handle those events.
 
 ## Subsetting 2013 to only Brazil
 
