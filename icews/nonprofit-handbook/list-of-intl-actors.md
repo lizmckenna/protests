@@ -600,3 +600,68 @@ International Ethnic,General Population / Civilian / Social,Social
 Ideological,Muslim,(National) Major Party,Parties,Far Right,International Religious,Fundamentalist
 Regional,Government,International Government Organization,Executive,Executive Office,Regional Diplomatic IGOs,Elite
 ```
+And 61 different int'l target types for 2016.
+```
+Target.Sectors
+Government,Foreign Ministry,Executive
+International Religious,Elite,Nationalist,Parties,(National) Major Party,Sunni,Executive Office,Executive,Government,Ideological
+International Government Organization,Global,Global Diplomatic IGOs
+Elite,Ijaw,International Ethnic
+Dissident,Nationalist,International Religious,Elite,Hindu,Ideological,Far Right,Parties,(National) Major Party,Opposition Major Party (Out Of Government),Radicals / Extremists / Fundamentalists
+Regional,International Government Organization,Regional Diplomatic IGOs
+Dissident,Insurgents,International Religious,Muslim
+Nongovernmental Organization (International),Medical / Health NGOs,Nongovernmental Organizations / Activists
+Government,Executive,Foreign Ministry
+Fundamentalist,Dissident,Insurgents,International Religious,Sunni,Ideological
+International Government Organization,Global,International Religious,Government,Pashtun,Nongovernmental Organizations / Activists,Global Development IGOs,Global Economic/Financial/Trade IGOs,Development NGOs,Executive,Executive Office,International Ethnic,Muslim
+Finance / Economy / Commerce / Trade Ministry,Elite,Executive,Government
+Fundamentalist,International Religious,Executive Office,Lower House,Ideological,Legislative / Parliamentary,Shia,Parties,(National) Major Party,Government,Executive,Muslim
+International Government Organization,Regional,Regional Economic/Financial/Trade IGOs,Elite,Regional Development IGOs
+International Government Organization,Regional Diplomatic IGOs,Regional
+International Ethnic,Government,(National) Major Party,Fulani / Fulbe,Parties,Elite,Center Left,Ideological,Executive,Executive Office,International Religious,Far Right,Muslim,(National) Minor Party
+Executive,Protestant,International Religious,Executive Office,Government,(National) Major Party,Parties,Far Left,Government Major Party (In Government),Ideological,Elite
+International Ethnic,(National) Major Party,National Ethnic,Parties,Afro-American,Government,Executive,Social,Executive Office,Elite
+International Ethnic,Executive Office,Executive,Elite,Fundamentalist,Ideological,Sunni,(National) Major Party,Government,International Religious,Parties,Far Right,Muslim,Nubian
+International Religious,Dissident,Insurgents,Fundamentalist,Muslim,Ideological,Sunni
+Nongovernmental Organization (International),General Population / Civilian / Social,Social
+Finance / Economy / Commerce / Trade Ministry,Executive,Government
+Social,Muslim,International Religious,National Religious
+Social,Hindu,International Religious,National Religious
+Global Diplomatic IGOs,International Government Organization,Environment NGOs,Nongovernmental Organizations / Activists,Global
+Finance / Economy / Commerce / Trade Ministry,Parties,Government,(National) Major Party,Executive Office,Executive,Elite,Cabinet
+International Ethnic,Government,Unicameral,Nilotic,Legislative / Parliamentary,Social,Parties,National Ethnic,(National) Major Party,(National) Minor Party,Executive Office,Executive
+Global Diplomatic IGOs,International Government Organization,Global
+Social,National Religious,Jewish,International Religious
+Executive,International Religious,Government,Parties,Executive Office,Elite,Ideological,Center Right,Sunni,(National) Major Party
+Elite,International Religious,Government,Executive,Executive Office,Sunni
+Social,National Religious,International Religious,Buddhist
+Dissident,Insurgents,Muslim,Ideological,International Religious,Fundamentalist,Sunni
+International Government Organization,Regional,Regional Diplomatic IGOs
+Human Rights IGOs,Nongovernmental Organization (International),Nongovernmental Organizations / Activists,Human Rights NGOs
+Ideological,International Religious,Government,Sunni,Nationalist,Women / Children / Social / Welfare / Development / Religion Ministry,Elite,Parties,(National) Major Party,Executive,Cabinet,Executive Office
+Government,Elite,Foreign Ministry,Executive
+Center Left,Ideological,Elite,International Religious,(National) Minor Party,Government,Fulani / Fulbe,Parties,(National) Major Party,International Ethnic,Executive,Executive Office,Far Right,Muslim
+International Government Organization,Global,Global Defense / Security IGOs
+Parties,International Ethnic,(National) Major Party,Hutu,Executive,Cabinet,Management / Budget / Planning / Organization Ministry,Government
+International Government Organization,Global,Global Diplomatic IGOs,Elite
+Ideological,Nationalist,International Religious,Dissident,Hindu,Elite,Far Right,(National) Major Party,Opposition Major Party (Out Of Government),Parties,Radicals / Extremists / Fundamentalists
+Sunni,Ideological,International Religious,Fundamentalist,Muslim,Insurgents,Dissident
+Human Rights IGOs,Nongovernmental Organizations / Activists,Nongovernmental Organization (International),Human Rights NGOs
+Human Rights IGOs,Human Rights NGOs,Nongovernmental Organizations / Activists,Nongovernmental Organization (International)
+Nongovernmental Organization (International),International Religious,Dissident,(National) Major Party,Muslim,Parties
+Government,Executive,Foreign Ministry,Social,Education
+Fundamentalist,International Religious,Ideological,Executive Office,Executive,Shia,Lower House,Government,Muslim,(National) Major Party,Parties,Legislative / Parliamentary
+International Government Organization,Global Diplomatic IGOs,Global
+Global Diplomatic IGOs,International Government Organization,Global,Foreign Ministry,Elite,Government,Executive
+Social,International Religious,National Religious,Jewish
+Government,Ideological,International Religious,Executive,Shia,National Ethnic,Parties,(National) Major Party,Executive Office,Social,Religious Minority,National Religious,Far Right,National Ethnic Minority
+Elite,Jews,International Ethnic,Parties,(National) Major Party,Ideological,Centrist
+International Government Organization,Ideological,Regional Diplomatic IGOs,Executive,Executive Office,(National) Major Party,Parties,Elite,Government,Regional,Far Left
+Nongovernmental Organization (International),Human Rights NGOs,Human Rights IGOs,Nongovernmental Organizations / Activists
+Dissident,Muslim,Nongovernmental Organization (International),(National) Major Party,Parties,International Religious
+Finance / Economy / Commerce / Trade Ministry,Elite,Government,Executive,(National) Major Party,Cabinet,Parties,Executive Office
+International Ethnic,Kurd (Ethnic Group)
+Regional,Regional Diplomatic IGOs,International Government Organization
+Nongovernmental Organization (International),Nongovernmental Organizations / Activists
+Nongovernmental Organization (International),Nongovernmental Organizations / Activists,Human Rights IGOs,Human Rights NGOs
+```
