@@ -63,4 +63,22 @@ legend(x=-20, y=20, c("Ford", "UCSB"), pch=21, pt.bg=colrs, pt.cex=2, cex=.8, bt
 dev.copy(png,'w2.png', height =5, width = 7, units = 'in', res=400)
 dev.off()
 ```
+Meh.
+```
+####
+library(ggmap)
 
+ggmap(newmap) +
+  geom_point(data = one.1995,
+             aes(x = Longitude, y = Latitude),
+             color = "red", alpha = 0.5) +
+  geom_point(data = two.1995,
+             aes(x = Longitude, y = Latitude),
+             color = "purple", alpha = 0.5)
+
+
+# export
+  
+dev.copy(png,'w2.png', height =5, width = 7, units = 'in', res=400)
+dev.off()
+```
