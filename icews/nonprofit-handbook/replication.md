@@ -39,8 +39,6 @@ There were 729 events reported in 1995 that met our criteria (an international e
 
 ## Load packages
 ```
-##
-
 library(rworldmap)
 library(ggmap)
 library(rworldxtra)
