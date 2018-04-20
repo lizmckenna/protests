@@ -42,6 +42,13 @@ There were 729 events reported in 1995 that met our criteria (an international e
 
 Update: There are 31,618 events that coded the same repertories in 2016.
 
+| year | global_events | total_events | percentage | one global actor | two global actors |
+|------|:-------------:|:------------:|:----------:|:----------------:|:-----------------:|
+| 1995 |      688      |     4617     |    14.9%   |        646       |         42        |
+| 2011 |      3108     |     33405    |    9.3%    |       2999       |        109        |
+| 2016 |      2901     |     31618    |    9.2%    |       2772       |        129        |
+
+
 ## Load packages
 ```
 library(rworldmap)
