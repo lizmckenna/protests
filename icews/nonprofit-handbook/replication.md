@@ -49,44 +49,23 @@ library(ggplot2)
 one.1995 <- read.csv(file="/Users/lizmckenna/Dropbox/GSM/one1995.csv", header=TRUE,sep=",")
 two.1995 <- read.csv(file="/Users/lizmckenna/Dropbox/GSM/two1995.csv", header=TRUE,sep=",")
 
+# Get blank map
 
 newmap <- getMap(resolution = "high")
 plot(newmap)
 
-e <- points(one.1995$Longitude, one.1995$Latitude, pch=16, col = "goldenrod", cex = 1)
-e
+# Add points
 
-e1 <- e + points(two.1995$Longitude, two.1995$Latitude, pch=16, col = "royalblue4", cex = 1)
-e1  
+e <- points(one.1995$Longitude, one.1995$Latitude, pch=21, col = "black", bg = "#ef3b2c", cex = 1)
+e1 <- e + points(two.1995$Longitude, two.1995$Latitude, pch=21, col = "black", bg = "#41b6c4", cex = 1)
 
-##### add a legend
+# Add a legend
 
-colrs <- c("royalblue4","goldenrod")
-legend(x=-20, y=20, c("Ford", "UCSB"), pch=21, pt.bg=colrs, pt.cex=2, cex=.8, bty="n", ncol=1)
+colrs <- c("#41b6c4","#ef3b2c")
+legend(x=80, y=-65, c("Two global actors", "One global actor"), pch=21, pt.bg=colrs, pt.cex=1, cex=.8, bty="n", ncol=1)
 
-
-
-# export
+# Export
   
-dev.copy(png,'w2.png', height =5, width = 7, units = 'in', res=400)
-dev.off()
-```
-Meh.
-```
-####
-library(ggmap)
-
-ggmap(newmap) +
-  geom_point(data = one.1995,
-             aes(x = Longitude, y = Latitude),
-             color = "red", alpha = 0.5) +
-  geom_point(data = two.1995,
-             aes(x = Longitude, y = Latitude),
-             color = "purple", alpha = 0.5)
-
-
-# export
-  
-dev.copy(png,'w2.png', height =5, width = 7, units = 'in', res=400)
+dev.copy(png,'icews1995-v2.png', height =5, width = 7, units = 'in', res=400)
 dev.off()
 ```
