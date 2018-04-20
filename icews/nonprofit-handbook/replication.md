@@ -34,6 +34,9 @@ df1.subset <- subset(df1, subset = Event.Text %in%
 write.csv(df1.subset, file = "subset1995.csv")
 
 ```
+## A note on the number of events
+
+Note that after subsetting by the reps we care about, there were 4,617 reported collective action events in 1995. We'll need this number later to normalize, given that more events are reported in later years. What we want is a % of events that meet our global criteria given the number of all collective action events reported in the DB.
 
 There were 729 events reported in 1995 that met our criteria (an international entity, IGO, INGO, regional/global collective actor) as either a target or an initiator. 42 were duplicates (i.e. int'l actors were party in both actions). I'm going to map those events that had one vs. two int'l parties involved in the contentious political event.
 
