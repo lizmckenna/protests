@@ -14,7 +14,9 @@ Right now I only have time to do 1995 and 2016, the bookend years, but may go ba
 # Read in ICEWS data for 2015
 df1 <- read.delim(file="/Users/lizmckenna/Desktop/events.1995.20150313082510.tab", header=TRUE, sep="\t")
 
-# Identify how the INGOs and SMOs are coded, then subset data to them
+```
+Identify how the repertoires are coded, then subset to data related to collective action events (protests, riots, rallies, demonstrations, etc.). This DB is actor-number agnostic, so there are a lot of political events that just involve two world leaders, for ex.
+```
 summary(df1$Source.Sectors)
 
 df1.subset <- subset(df1, subset = Source.Sectors %in% 
@@ -46,62 +48,3 @@ write.csv(df1.subset, file = "subset1995.csv")
 
 Then I did this the lazy/easy way (excel filters, just unchecking repertoires to limit to these 61:
 
-Demonstrate for leadership change
-Threaten
-Demonstrate or rally
-Use unconventional violence
-Criticize or denounce
-Appeal for release of persons or property
-Make an appeal or request
-Accuse
-Occupy territory
-Engage in symbolic act
-Demand
-Rally support on behalf of
-fight with small arms and light weapons
-Accuse of human rights abuses
-Appeal for change in leadership
-Conduct strike or boycott
-Demand diplomatic cooperation (such as policy support)
-Demand settling of dispute
-Rally opposition against
-Conduct hunger strike
-Obstruct passage, block
-Bring lawsuit against
-Accuse of crime, corruption
-Complain officially
-Protest violently, riot
-Demand de-escalation of military engagement
-Appeal for diplomatic cooperation (such as policy support)
-Accuse of war crimes
-Demand meeting, negotiation
-Demand economic aid
-Appeal for economic aid
-Appeal for policy change
-Appeal for humanitarian aid
-Conduct strike or boycott for leadership change
-Appeal for aid
-Appeal for easing of economic sanctions, boycott, or embargo
-Demand policy change
-Engage in violent protest for policy change
-Accuse of aggression
-Demonstrate for policy change
-Assassinate
-Demand change in leadership
-Appeal to others to settle dispute
-Appeal for rights
-Demand economic cooperation
-Appeal for change in institutions, regime
-Appeal for political reform
-Appeal to others to meet or negotiate
-Demand release of persons or property
-Demand that target yields
-Appeal for de-escalation of military engagement
-Demonstrate military or police power
-Appeal for material cooperation
-Demand political reform
-Demand rights
-Attempt to assassinate
-Defend verbally
-Demand material cooperation
-Demand change in institutions, regime
