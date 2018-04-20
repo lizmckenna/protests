@@ -256,6 +256,7 @@ Jews,International Ethnic,Parties,Elite,(National) Major Party,Ideological,Cente
 Regional,International Government Organization,Regional Diplomatic IGOs
 ```
 # 2016
+There were 340 international actors listed as initiators in 2016. These were:
 ```
 Source.Sectors
 Nongovernmental Organization (International),Nongovernmental Organizations / Activists,Human Rights NGOs,Human Rights IGOs
