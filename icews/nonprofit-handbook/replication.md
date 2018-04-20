@@ -40,6 +40,8 @@ Note that after subsetting by the reps we care about, there were 4,617 reported 
 
 There were 729 events reported in 1995 that met our criteria (an international entity, IGO, INGO, regional/global collective actor) as either a target or an initiator. 42 were duplicates (i.e. int'l actors were party in both actions). I'm going to map those events that had one vs. two int'l parties involved in the contentious political event.
 
+Update: There are 31,618 events that coded the same repertories in 2016.
+
 ## Load packages
 ```
 library(rworldmap)
