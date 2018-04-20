@@ -1,4 +1,4 @@
-# Replication and processing workflow for Nonprofit Handbook chapter
+# Replication instructions for ICEWS data used in Nonprofit Handbook chapter
 
 ## Data
 First, I downloaded the ICEWS coded event data from Harvard's dataverse, here:
