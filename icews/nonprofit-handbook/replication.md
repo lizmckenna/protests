@@ -37,6 +37,16 @@ write.csv(df1.subset, file = "subset1995.csv")
 
 There were 729 events reported in 1995 that met our criteria (an international entity, IGO, INGO, regional/global collective actor) as either a target or an initiator. 42 were duplicates (i.e. int'l actors were party in both actions). I'm going to map those events that had one vs. two int'l parties involved in the contentious political event.
 
+## Load packages
+```
+##
+
+library(rworldmap)
+library(ggmap)
+library(rworldxtra)
+library(ggplot2)
+```
+## Read in analysis datasets and map
 ```
 one.1995 <- read.csv(file="/Users/lizmckenna/Dropbox/GSM/one1995.csv", header=TRUE,sep=",")
 two.1995 <- read.csv(file="/Users/lizmckenna/Dropbox/GSM/two1995.csv", header=TRUE,sep=",")
