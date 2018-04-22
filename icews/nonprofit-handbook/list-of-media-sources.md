@@ -1,6 +1,7 @@
 # 2016
 ```
-Publisher
+Publisher:
+<br>
 Irish Times
 Hindustan Times
 The Washington Post
@@ -171,4 +172,4 @@ CTK Daily News
 ACN Newswire
 Dow Jones en Espanol
 El Norte
-``
+```
