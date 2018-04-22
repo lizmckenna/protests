@@ -1,7 +1,7 @@
 # 2016
 ```
 Publisher:
-<br>
+
 Irish Times
 Hindustan Times
 The Washington Post
