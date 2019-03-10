@@ -5,6 +5,7 @@ library(ggplot2)
 library(extrafont)
 
 #  read in data
+#  here is the stable link to the data: https://www.dropbox.com/s/1kjjlxoc4go3o6u/time-type-v2.csv?dl=0
 line=read.csv("/Users/lizmckenna/Dropbox/01_mpc/data/time-type-v2.csv",header=TRUE)
 
 # fix date class
